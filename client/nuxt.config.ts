@@ -11,6 +11,6 @@ export default defineNuxtConfig({
     }
   },
   app: {
-    baseURL: '/__my-module',
+    baseURL: '/__my-storybook',
   },
 })

@@ -27,7 +27,7 @@ export default defineNuxtConfig({
             cwd: resolve(__dirname, '../client'),
           },
           {
-            id: 'my-module:client',
+            id: 'my-storybook:client',
             name: 'My Module Client Dev',
           }
         )

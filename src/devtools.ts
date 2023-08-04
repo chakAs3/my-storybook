@@ -8,6 +8,7 @@ const DEVTOOLS_UI_LOCAL_PORT = 3300
 export function setupDevToolsUI(nuxt: Nuxt, resolver: Resolver) {
   const clientPath = resolver.resolve('./client')
   const isProductionBuild =  existsSync(clientPath)
+  console.log('isProductionBuild', isProductionBuild  )
 
   // Serve production-built client (used when package is published)
   if (isProductionBuild) {
