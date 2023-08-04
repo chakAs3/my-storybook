@@ -42,7 +42,7 @@ export function setupDevToolsUI(nuxt: Nuxt, resolver: Resolver) {
       // title to display in the tab
       title: 'Storybook',
       // any icon from Iconify, or a URL to an image
-      icon: 'carbon:apps',
+      icon: 'cib:storybook',
       // iframe view
       view: {
         type: 'iframe',
